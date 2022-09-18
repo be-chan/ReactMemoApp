@@ -57,7 +57,7 @@ export default function MemoListScreen(props) {
             onPress={() => { navigation.navigate('MemoCreate'); }} />
         </View>
       </View>
-    )
+    );
   }
 
   return (
@@ -91,6 +91,7 @@ const emptyStyles = StyleSheet.create({
   title: {
     fontSize: 18,
     marginBottom: 24,
+    textAlign: 'center',
   },
   button: {
     alignSelf: 'center',
