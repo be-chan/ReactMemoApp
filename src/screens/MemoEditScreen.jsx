@@ -66,5 +66,10 @@ const styles = StyleSheet.create({
   input: {
     flex: 1,
     textAlignVertical: 'top',
+    fontSize: 16,
+    lineHeight: 24,
+    paddingTop: 32,
+    paddingBottom: 32,
+    paddingHorizontal: 27,
   },
 });
